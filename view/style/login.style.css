@@ -1,0 +1,67 @@
+.banner {
+    background-image: url("../assets/img/bg-jelly-fish-para_outras_pags.png");
+    padding: 100px 0;
+    background-size: cover;
+    height: 95vh;
+}
+
+.banner .container {
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.caixaFormulario {
+    background-color: #E5E5E5;
+    padding: 50px 100px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.caixaFormulario h2 {
+    color: palevioletred;
+    margin-bottom: 20px;
+}
+
+.campo {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;    
+}
+
+.campo label {
+    color: palevioletred;
+    font-size: 20px;
+    padding: 10px 0;
+}
+
+.campo input {
+    padding: 10px;
+    border-radius: 10px;
+    border: solid 2px #32B9CD;
+}
+
+.caixaFormulario button {
+    margin-top: 20px;
+    width: 120px;
+    color: #FFF;
+    background-color: #E6005A;
+    border: none;
+    padding: 10px 20px;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.caixaFormulario button:hover {
+    filter: brightness(1.5);
+    scale: 1.1;
+    -webkit-box-shadow: 13px 17px 23px -15px rgba(0,0,0,0.53);
+    -moz-box-shadow: 13px 17px 23px -15px rgba(0,0,0,0.53);
+    box-shadow: 13px 17px 23px -15px rgba(0,0,0,0.53);
+}
