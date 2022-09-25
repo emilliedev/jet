@@ -1,12 +1,12 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../style/global.style.css">
     <link rel="stylesheet" href="../style/login.style.css">
-    <title>Login | Aquatec</title>
+    <title>Cadastro | AquaTec</title>
 </head>
 <body>
     <header class="header">
@@ -19,7 +19,7 @@
                     <a href="../../index.html"><li>Inicial</li></a>
                     <a href="#"><li>Simulador</li></a>
                     <a href="login.html"><li class="agora">Login</li></a>
-                    <a href="cadastro.html"><li>Cadastro</li></a>
+                    <a href="#"><li>Cadastro</li></a>
                 </ul>
             </div>
         </div>
@@ -28,16 +28,24 @@
         <section class="banner">
             <div class="container">
                 <div class="caixaFormulario">
-                    <h2>Olá de volta!</h2>
+                    <h2>Bem-vindo!</h2>
                     <div class="campo">
-                        <label for="emailFor">Email</label>
-                        <input type="email" name="emailFor" id="emailFor" class="inputFormulario" placeholder="email@email.com">
+                        <label for="nomeFor">Nome:</label>
+                        <input type="text" name="nomeFor" id="nomeFor" class="inputFormulario" placeholder="Seu nome">
                     </div>
                     <div class="campo">
-                        <label for="senhaFor">Senha</label>
+                        <label for="emailFor">Email:</label>
+                        <input type="email" name="emailFor" id="emailFor" class="inputFormulario" placeholder="meuemail@provedor.com">
+                    </div>
+                    <div class="campo">
+                        <label for="senhaFor">Senha:</label>
                         <input type="password" name="senhaFor" id="senhaFor" class="inputFormulario" placeholder="********">
                     </div>
-                    <button>Enviar</button>
+                    <div class="campo">
+                        <label for="confirmaSenhaFor">Confirmação de senha:</label>
+                        <input type="password" name="confirmaSenhaFor" id="confirmaSenhaFor" class="inputFormulario" placeholder="********">
+                    </div>
+                    <button>Cadastrar</button>
                 </div>
             </div>
         </section>
